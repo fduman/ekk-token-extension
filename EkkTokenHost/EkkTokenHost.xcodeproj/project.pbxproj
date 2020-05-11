@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC29FE7824692AE5001BA595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FE7724692AE5001BA595 /* AppDelegate.swift */; };
+		DC29FE7A24692AE5001BA595 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FE7924692AE5001BA595 /* ContentView.swift */; };
+		DC29FE7C24692AE9001BA595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC29FE7B24692AE9001BA595 /* Assets.xcassets */; };
+		DC29FE7F24692AE9001BA595 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC29FE7E24692AE9001BA595 /* Preview Assets.xcassets */; };
+		DC29FE8224692AE9001BA595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC29FE8024692AE9001BA595 /* Main.storyboard */; };
+		DC29FE9124692B18001BA595 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC29FE9024692B18001BA595 /* Cocoa.framework */; };
+		DC29FE9424692B18001BA595 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FE9324692B18001BA595 /* Token.swift */; };
+		DC29FE9624692B18001BA595 /* TokenDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FE9524692B18001BA595 /* TokenDriver.swift */; };
+		DC29FE9824692B18001BA595 /* TokenSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FE9724692B18001BA595 /* TokenSession.swift */; };
+		DC29FE9D24692B18001BA595 /* EkkTokenExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC29FE8E24692B18001BA595 /* EkkTokenExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC29FE9B24692B18001BA595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC29FE6C24692AE5001BA595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC29FE8D24692B18001BA595;
+			remoteInfo = EkkTokenExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC29FEA124692B18001BA595 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DC29FE9D24692B18001BA595 /* EkkTokenExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC29FE7424692AE5001BA595 /* EkkTokenHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkkTokenHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC29FE7724692AE5001BA595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC29FE7924692AE5001BA595 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC29FE7B24692AE9001BA595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC29FE7E24692AE9001BA595 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC29FE8124692AE9001BA595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC29FE8324692AE9001BA595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC29FE8424692AE9001BA595 /* EkkTokenHost.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EkkTokenHost.entitlements; sourceTree = "<group>"; };
+		DC29FE8E24692B18001BA595 /* EkkTokenExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EkkTokenExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC29FE9024692B18001BA595 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DC29FE9324692B18001BA595 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		DC29FE9524692B18001BA595 /* TokenDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenDriver.swift; sourceTree = "<group>"; };
+		DC29FE9724692B18001BA595 /* TokenSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenSession.swift; sourceTree = "<group>"; };
+		DC29FE9924692B18001BA595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC29FE9A24692B18001BA595 /* EkkTokenExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EkkTokenExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC29FE7124692AE5001BA595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC29FE8B24692B18001BA595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC29FE9124692B18001BA595 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC29FE6B24692AE5001BA595 = {
+			isa = PBXGroup;
+			children = (
+				DC29FE7624692AE5001BA595 /* EkkTokenHost */,
+				DC29FE9224692B18001BA595 /* EkkTokenExtension */,
+				DC29FE8F24692B18001BA595 /* Frameworks */,
+				DC29FE7524692AE5001BA595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC29FE7524692AE5001BA595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC29FE7424692AE5001BA595 /* EkkTokenHost.app */,
+				DC29FE8E24692B18001BA595 /* EkkTokenExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC29FE7624692AE5001BA595 /* EkkTokenHost */ = {
+			isa = PBXGroup;
+			children = (
+				DC29FE7724692AE5001BA595 /* AppDelegate.swift */,
+				DC29FE7924692AE5001BA595 /* ContentView.swift */,
+				DC29FE7B24692AE9001BA595 /* Assets.xcassets */,
+				DC29FE8024692AE9001BA595 /* Main.storyboard */,
+				DC29FE8324692AE9001BA595 /* Info.plist */,
+				DC29FE8424692AE9001BA595 /* EkkTokenHost.entitlements */,
+				DC29FE7D24692AE9001BA595 /* Preview Content */,
+			);
+			path = EkkTokenHost;
+			sourceTree = "<group>";
+		};
+		DC29FE7D24692AE9001BA595 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC29FE7E24692AE9001BA595 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC29FE8F24692B18001BA595 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC29FE9024692B18001BA595 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC29FE9224692B18001BA595 /* EkkTokenExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DC29FE9324692B18001BA595 /* Token.swift */,
+				DC29FE9524692B18001BA595 /* TokenDriver.swift */,
+				DC29FE9724692B18001BA595 /* TokenSession.swift */,
+				DC29FE9924692B18001BA595 /* Info.plist */,
+				DC29FE9A24692B18001BA595 /* EkkTokenExtension.entitlements */,
+			);
+			path = EkkTokenExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC29FE7324692AE5001BA595 /* EkkTokenHost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC29FE8724692AE9001BA595 /* Build configuration list for PBXNativeTarget "EkkTokenHost" */;
+			buildPhases = (
+				DC29FE7024692AE5001BA595 /* Sources */,
+				DC29FE7124692AE5001BA595 /* Frameworks */,
+				DC29FE7224692AE5001BA595 /* Resources */,
+				DC29FEA124692B18001BA595 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC29FE9C24692B18001BA595 /* PBXTargetDependency */,
+			);
+			name = EkkTokenHost;
+			productName = EkkTokenHost;
+			productReference = DC29FE7424692AE5001BA595 /* EkkTokenHost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC29FE8D24692B18001BA595 /* EkkTokenExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC29FE9E24692B18001BA595 /* Build configuration list for PBXNativeTarget "EkkTokenExtension" */;
+			buildPhases = (
+				DC29FE8A24692B18001BA595 /* Sources */,
+				DC29FE8B24692B18001BA595 /* Frameworks */,
+				DC29FE8C24692B18001BA595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EkkTokenExtension;
+			productName = EkkTokenExtension;
+			productReference = DC29FE8E24692B18001BA595 /* EkkTokenExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC29FE6C24692AE5001BA595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				TargetAttributes = {
+					DC29FE7324692AE5001BA595 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					DC29FE8D24692B18001BA595 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DC29FE6F24692AE5001BA595 /* Build configuration list for PBXProject "EkkTokenHost" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC29FE6B24692AE5001BA595;
+			productRefGroup = DC29FE7524692AE5001BA595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC29FE7324692AE5001BA595 /* EkkTokenHost */,
+				DC29FE8D24692B18001BA595 /* EkkTokenExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC29FE7224692AE5001BA595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC29FE8224692AE9001BA595 /* Main.storyboard in Resources */,
+				DC29FE7F24692AE9001BA595 /* Preview Assets.xcassets in Resources */,
+				DC29FE7C24692AE9001BA595 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC29FE8C24692B18001BA595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC29FE7024692AE5001BA595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC29FE7A24692AE5001BA595 /* ContentView.swift in Sources */,
+				DC29FE7824692AE5001BA595 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC29FE8A24692B18001BA595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC29FE9824692B18001BA595 /* TokenSession.swift in Sources */,
+				DC29FE9424692B18001BA595 /* Token.swift in Sources */,
+				DC29FE9624692B18001BA595 /* TokenDriver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC29FE9C24692B18001BA595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC29FE8D24692B18001BA595 /* EkkTokenExtension */;
+			targetProxy = DC29FE9B24692B18001BA595 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC29FE8024692AE9001BA595 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC29FE8124692AE9001BA595 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC29FE8524692AE9001BA595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC29FE8624692AE9001BA595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DC29FE8824692AE9001BA595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EkkTokenHost/EkkTokenHost.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EkkTokenHost/Preview Content\"";
+				DEVELOPMENT_TEAM = 9B3C5BEJS4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EkkTokenHost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkanduman.EkkTokenHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC29FE8924692AE9001BA595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EkkTokenHost/EkkTokenHost.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EkkTokenHost/Preview Content\"";
+				DEVELOPMENT_TEAM = 9B3C5BEJS4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EkkTokenHost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkanduman.EkkTokenHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DC29FE9F24692B18001BA595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EkkTokenExtension/EkkTokenExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9B3C5BEJS4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = EkkTokenExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkanduman.EkkTokenHost.EkkTokenExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC29FEA024692B18001BA595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EkkTokenExtension/EkkTokenExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9B3C5BEJS4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = EkkTokenExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkanduman.EkkTokenHost.EkkTokenExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC29FE6F24692AE5001BA595 /* Build configuration list for PBXProject "EkkTokenHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC29FE8524692AE9001BA595 /* Debug */,
+				DC29FE8624692AE9001BA595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC29FE8724692AE9001BA595 /* Build configuration list for PBXNativeTarget "EkkTokenHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC29FE8824692AE9001BA595 /* Debug */,
+				DC29FE8924692AE9001BA595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC29FE9E24692B18001BA595 /* Build configuration list for PBXNativeTarget "EkkTokenExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC29FE9F24692B18001BA595 /* Debug */,
+				DC29FEA024692B18001BA595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC29FE6C24692AE5001BA595 /* Project object */;
+}
